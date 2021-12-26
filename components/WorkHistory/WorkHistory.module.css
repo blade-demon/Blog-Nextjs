@@ -1,0 +1,39 @@
+.contentBox {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1rem;
+}
+
+.contentBox .time {
+  min-width: 11rem;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+}
+
+.contentBox .detail {
+  width: 80%;
+}
+
+.contentBox .detail .main {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.contentBox .detail .locate {
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.contentBox .detail .detailList {
+  font-family: "Century Gothic";
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contentBox .detail .detailList .item {
+  margin-bottom: 1rem;
+}

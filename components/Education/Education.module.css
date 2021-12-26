@@ -1,0 +1,19 @@
+section.part {
+  margin: 0;
+  padding: 0;
+}
+
+section.part .title {
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+}
+
+section.part .subTitle {
+  text-align: left;
+  font-weight: 400;
+  color: #252932;
+}
+
+section.part .word {
+  font-size: 1.2rem;
+}
